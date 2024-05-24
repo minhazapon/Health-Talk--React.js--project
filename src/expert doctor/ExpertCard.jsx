@@ -40,6 +40,8 @@ const ExpertCard = () => {
                  </svg>
                     <h1 className="  text-slate-500">$20</h1>
                  </div>
+
+                 <button className=" btn bg-blue-500 text-white mt-5">View profile</button>
                </div>
 
 
@@ -75,6 +77,8 @@ const ExpertCard = () => {
                  </svg>
                     <h1 className="  text-slate-500">$20</h1>
                  </div>
+                 <button className=" btn bg-blue-500 text-white mt-5">View profile</button>
+
                </div>
 
 
@@ -112,6 +116,8 @@ const ExpertCard = () => {
                  </svg>
                     <h1 className="  text-slate-500">$20</h1>
                  </div>
+                 <button className=" btn bg-blue-500 text-white mt-5">View profile</button>
+
                </div>
 
 
