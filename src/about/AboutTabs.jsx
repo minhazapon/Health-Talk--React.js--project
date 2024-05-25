@@ -2,6 +2,7 @@
 import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
 import 'react-tabs/style/react-tabs.css';
 import Overview from './Overview';
+import Location from './Location';
 
 
 const AboutTabs = () => {
@@ -27,7 +28,7 @@ const AboutTabs = () => {
                     <Overview></Overview>
                   </TabPanel>
                   <TabPanel>
-              
+                      <Location></Location>
                   </TabPanel>
                   <TabPanel>
                    
