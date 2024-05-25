@@ -9,6 +9,7 @@ const About = () => {
               <AboutBanner></AboutBanner>
               <DoctorAbout></DoctorAbout>
               <AboutTabs></AboutTabs>
+              
 
 
             

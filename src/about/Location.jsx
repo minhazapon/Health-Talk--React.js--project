@@ -14,7 +14,7 @@ const Location = () => {
                 <h1 className=" text-xl font-bold">Location Address</h1>
 
                 <p className=" text-xl mt-5">City: New York, America</p>
-                <p className=" text-xl mt-5" >street: 3004 rad New York.</p>
+                <p className=" text-xl mt-5" >street: 3004 Road New York.</p>
                 <p className=" text-xl mt-5" >country: America</p>
 
 

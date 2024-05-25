@@ -3,6 +3,8 @@ import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
 import 'react-tabs/style/react-tabs.css';
 import Overview from './Overview';
 import Location from './Location';
+import Review from './Review';
+import BussinessTime from './BussinessTime';
 
 
 const AboutTabs = () => {
@@ -31,10 +33,10 @@ const AboutTabs = () => {
                       <Location></Location>
                   </TabPanel>
                   <TabPanel>
-                   
+                    <Review></Review>
                   </TabPanel>
                   <TabPanel>
-                 
+                    <BussinessTime></BussinessTime>
                   </TabPanel>
                   <TabPanel>
              
