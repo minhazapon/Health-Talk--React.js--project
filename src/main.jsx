@@ -9,6 +9,7 @@ import {
 import Root from './Root';
 import Home from './Home';
 import About from './about/About';
+import Login from './login/Login';
 
 
 const router = createBrowserRouter([
@@ -23,6 +24,10 @@ const router = createBrowserRouter([
       {
         path: "/about",
         element: <About></About>,
+      },
+      {
+        path: "/login",
+        element: <Login></Login>,
       },
     ],
   },
