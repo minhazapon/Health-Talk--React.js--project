@@ -1,7 +1,7 @@
 
 
-import pic1 from '../assets/image/health-report.png'
 
+import { Link } from 'react-router-dom';
 import pic2 from '../assets/image/mental-health.png'
 
 
@@ -10,26 +10,16 @@ const Login = () => {
         <div className=" mb-10 mt-10 ml-10 mr-10">
 
            <div className='  flex-col md:flex-row lg:flex-row flex justify-center items-center gap-28'>
-
-            
-
-            
            <div className=' flex-col md:flex-row lg:flex-row '>
             <img className=' h-[400px] ' src={pic2} alt="" />
            </div>
-
-
-
-           
-
            <div>
-
-               
-                 
                             <div className="w-full flex-col md:flex-row lg:flex-row max-w-md p-4 rounded-md shadow sm:p-8 bg-[#1a504a]  text-gray-100">
                  	<h2 className="mb-3 text-3xl font-semibold text-center">Login to your account</h2>
                  	<p className="text-sm text-center text-gray-400">Dont have account?
+					    <Link to="/sign" >
                  		<a href="#" rel="noopener noreferrer" className="focus:underline hover:underline">Sign up here</a>
+						 </Link>
                  	</p>
                  	<div className="my-6 space-y-4">
                  		<button aria-label="Login with Google" type="button" className="flex items-center justify-center w-full p-4 space-x-4 border rounded-md focus:ring-2 focus:ring-offset-1 border-gray-400 focus:ring-violet-400">
@@ -62,33 +52,7 @@ const Login = () => {
                  	</form>
                  </div>
 
-
-
            </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
            </div>
             
             
