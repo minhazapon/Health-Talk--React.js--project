@@ -5,7 +5,7 @@ const Review = () => {
     return (
         <div className=" mb-10 mt-10 ml-10 mr-10">
 
-            <div className=" grid grid-cols-2 gap-5">
+            <div className=" grid  md:grid-cols-2 gap-5">
 
             <div className="container flex flex-col w-full max-w-lg p-6 mx-auto divide-y rounded-md divide-gray-700 bg-[#1a504a] text-gray-100">
          	<div className="flex justify-between p-4">

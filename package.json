@@ -14,6 +14,8 @@
     "match-sorter": "^6.3.4",
     "react": "^18.2.0",
     "react-big-calendar": "^1.12.2",
+    "react-calendar": "^5.0.0",
+    "react-datepicker": "^6.9.0",
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.23.1",
     "react-tabs": "^6.0.2",
