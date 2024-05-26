@@ -1,5 +1,7 @@
 import Appobanner from "./Appobanner";
+import Book from "./Book";
 import Date from "./Date";
+import Please from "./Please";
 
 
 
@@ -10,6 +12,8 @@ const Appo = () => {
 
             <Appobanner></Appobanner>
             <Date></Date>
+            <Please></Please>
+            <Book></Book>
             
         </div>
     );
