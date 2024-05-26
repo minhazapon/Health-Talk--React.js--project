@@ -12,9 +12,9 @@ const Date = () => {
 
               
 
-              <div className=" flex justify-center  items-center gap-10">
+              <div className=" flex-col md:flex-row lg:flex-row flex justify-center  items-center gap-10">
 
-              <div>
+              <div className=" flex-col md:flex-row lg:flex-row">
                    <form>
                    <h1 className="  text-4xl font-semibold text-blue-500 ">Select Your Appointment date:</h1>
                    <input className=" mt-5  w-[300px] p-5 border-[1px] border-[#1a504a] " type="date" name="AppointmentDate" id="" />
@@ -25,8 +25,8 @@ const Date = () => {
               </div>
 
 
-              <div>
-                <img className=" h-[400px]" src="https://img.freepik.com/premium-vector/patient-having-consultation-about-disease-symptoms-with-doctor-therapist-hospital_566886-12459.jpg?w=740" alt="" />
+              <div className=" flex-col md:flex-row lg:flex-row">
+                <img className=" flex-col md:flex-row lg:flex-row h-[400px]" src="https://img.freepik.com/premium-vector/patient-having-consultation-about-disease-symptoms-with-doctor-therapist-hospital_566886-12459.jpg?w=740" alt="" />
               </div>
 
 
