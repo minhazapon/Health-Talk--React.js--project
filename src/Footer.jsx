@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 
 
 const Footer = () => {
@@ -7,7 +8,9 @@ const Footer = () => {
   <aside>
     <img className=" h-[50px]" src="https://i.ibb.co/nPHNzLj/diabetes.png" alt="" />
     <p>Health Talk.<br/>Providing reliable health care since 1992</p>
+    <Link to="/appo" >
     <button className=" btn border-[1px] border-blue-500 text-blue-500">Appointment</button>
+    </Link>
   </aside> 
   <nav>
     <h6 className="footer-title">Quick Links</h6> 

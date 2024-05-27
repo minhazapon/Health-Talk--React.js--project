@@ -12,6 +12,7 @@ import About from './about/About';
 import Login from './login/Login';
 import SignUp from './login/SignUp';
 import Appo from './appointment/Appo';
+import Blog from './Blog/Blog';
 
 
 const router = createBrowserRouter([
@@ -39,6 +40,11 @@ const router = createBrowserRouter([
         path: "/appo",
         element: <Appo></Appo>,
       },
+      {
+        path: "/blog",
+        element: <Blog></Blog>,
+      },
+      
     ],
   },
 ]);

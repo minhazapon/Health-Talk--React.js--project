@@ -10,7 +10,6 @@ const Please = () => {
                  
 
                  <div className=" text-center">
-                    <h1 className=" text-xl text-blue-500">Available Services on April 30, 2022</h1>
                     <p className=" mt-5 text-5xl font-bold">Please select a service.</p>
                  </div>
 
