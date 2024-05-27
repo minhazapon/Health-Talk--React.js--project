@@ -17,6 +17,10 @@ import Department from './Department/Department';
 import OurDoctor from './Doctor/OurDoctor';
 import Doc1 from './Doctor/Doc1';
 import Doc2 from './Doctor/Doc2';
+import Doc3 from './Doctor/Doc3';
+import Doc4 from './Doctor/Doc4';
+import Doc5 from './Doctor/Doc5';
+import Doc6 from './Doctor/Doc6';
 
 
 const router = createBrowserRouter([
@@ -63,6 +67,22 @@ const router = createBrowserRouter([
       {
         path: "/doc2",
         element: <Doc2></Doc2>,
+      },
+      {
+        path: "/doc3",
+        element: <Doc3></Doc3>,
+      },
+      {
+        path: "/doc4",
+        element: <Doc4></Doc4>,
+      },
+      {
+        path: "/doc5",
+        element: <Doc5></Doc5>,
+      },
+      {
+        path: "/doc6",
+        element: <Doc6></Doc6>,
       },
       
     ],
