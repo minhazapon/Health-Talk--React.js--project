@@ -14,6 +14,7 @@ import SignUp from './login/SignUp';
 import Appo from './appointment/Appo';
 import Blog from './Blog/Blog';
 import Department from './Department/Department';
+import OurDoctor from './Doctor/OurDoctor';
 
 
 const router = createBrowserRouter([
@@ -48,6 +49,10 @@ const router = createBrowserRouter([
       {
         path: "/depart",
         element: <Department></Department>,
+      },
+      {
+        path: "/doc",
+        element: <OurDoctor></OurDoctor>,
       },
       
     ],
