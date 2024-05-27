@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 
 
 
@@ -46,8 +47,10 @@ const OurDoctor = () => {
          </svg>
             <h1 className="  text-slate-500">$20</h1>
          </div>
-
+         <Link to="/doc1"  >
          <button className=" btn bg-blue-500 text-white mt-5">View profile</button>
+
+         </Link>
        </div>
 
 {/* ------------------------------------------------------------------------- */}
@@ -83,8 +86,11 @@ const OurDoctor = () => {
          </svg>
             <h1 className="  text-slate-500">$20</h1>
          </div>
-
+         
+         <Link to="/doc2" >
          <button className=" btn bg-blue-500 text-white mt-5">View profile</button>
+
+         </Link>
        </div>
 
 {/* ------------------------------------------------------------------------- */}
@@ -121,8 +127,11 @@ const OurDoctor = () => {
          </svg>
             <h1 className="  text-slate-500">$20</h1>
          </div>
-
+         
+         <Link to="/doc3" >
          <button className=" btn bg-blue-500 text-white mt-5">View profile</button>
+
+         </Link>
        </div>
 
 {/* ------------------------------------------------------------------------- */}
@@ -159,8 +168,11 @@ const OurDoctor = () => {
          </svg>
             <h1 className="  text-slate-500">$20</h1>
          </div>
-
+         
+         <Link to="/doc4" >
          <button className=" btn bg-blue-500 text-white mt-5">View profile</button>
+
+         </Link>
        </div>
 
 {/* ------------------------------------------------------------------------- */}
@@ -197,8 +209,11 @@ const OurDoctor = () => {
          </svg>
             <h1 className="  text-slate-500">$20</h1>
          </div>
-
+         
+         <Link to="/doc5" >
          <button className=" btn bg-blue-500 text-white mt-5">View profile</button>
+
+         </Link>
        </div>
 
 {/* ------------------------------------------------------------------------- */}
@@ -235,8 +250,11 @@ const OurDoctor = () => {
          </svg>
             <h1 className="  text-slate-500">$20</h1>
          </div>
-
+         
+         <Link to="/doc6" >
          <button className=" btn bg-blue-500 text-white mt-5">View profile</button>
+
+         </Link>
        </div>
 
 {/* ------------------------------------------------------------------------- */}

@@ -15,6 +15,8 @@ import Appo from './appointment/Appo';
 import Blog from './Blog/Blog';
 import Department from './Department/Department';
 import OurDoctor from './Doctor/OurDoctor';
+import Doc1 from './Doctor/Doc1';
+import Doc2 from './Doctor/Doc2';
 
 
 const router = createBrowserRouter([
@@ -53,6 +55,14 @@ const router = createBrowserRouter([
       {
         path: "/doc",
         element: <OurDoctor></OurDoctor>,
+      },
+      {
+        path: "/doc1",
+        element: <Doc1></Doc1>,
+      },
+      {
+        path: "/doc2",
+        element: <Doc2></Doc2>,
       },
       
     ],
