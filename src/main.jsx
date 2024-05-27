@@ -13,6 +13,7 @@ import Login from './login/Login';
 import SignUp from './login/SignUp';
 import Appo from './appointment/Appo';
 import Blog from './Blog/Blog';
+import Department from './Department/Department';
 
 
 const router = createBrowserRouter([
@@ -43,6 +44,10 @@ const router = createBrowserRouter([
       {
         path: "/blog",
         element: <Blog></Blog>,
+      },
+      {
+        path: "/depart",
+        element: <Department></Department>,
       },
       
     ],

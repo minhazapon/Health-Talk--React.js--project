@@ -1,0 +1,66 @@
+
+
+[
+
+   {
+      "image":"https://img.freepik.com/free-vector/human-internal-organ-with-heart_1308-108889.jpg?t=st=1716805370~exp=1716808970~hmac=e449771f803056f7d9fa4eb9ceb3fa33e67d27f16ed6b703579e127d6a851eed&w=740",
+      "name": "Cardiology",
+      "service": "8.00-10.00",
+      "Details": "Cardiology is a medical specialty focused on diagnosing, treating, and preventing diseases and conditions of the heart and blood vessels."
+   },
+   {
+      "image":"https://img.freepik.com/free-psd/social-media-feed-white-january-mental-health-awareness-month_220664-5149.jpg?t=st=1716805454~exp=1716809054~hmac=9f1bd01e8947c2e199c7f664a6c12e8af8790c39c835cf1b722a4729eb9857ec&w=740",
+      "name": "Neurology",
+      "service": "8.00-10.00",
+      "Details": "Neurology is the branch of medicine concerned with the study and treatment of disorders of the nervous system. "
+   },
+   {
+      "image":"https://img.freepik.com/free-vector/orthopedics-2x2-design-concept_1284-16734.jpg?t=st=1716805711~exp=1716809311~hmac=311f0e93326e394548300da6f365a850dff82173972d4953f703d3759f8c85c4&w=740",
+      "name": "Orthopedics ",
+      "service": "8.00-10.00",
+      "Details": "orthopedics, medical specialty concerned with the preservation and restoration of function of the skeletal system and its associated structures, i.e., spinal and other bones, joints, and muscles."
+   },
+   {
+      "image":"https://img.freepik.com/free-photo/3d-virus-cells-attacking-dna-strand_1048-6816.jpg?t=st=1716805744~exp=1716809344~hmac=d213ec85cd2ade7ac494ef3c6b95f5ea44a27dc2be2c4369f7522c0da10fa116&w=740",
+      "name": "Oncology ",
+      "service": "8.00-10.00",
+      "Details": "Oncology is a sub-specialty of medicine dedicated to the investigation, diagnosis and treatment of people with cancer or suspected cancer."
+   },
+   {
+      "image":"https://img.freepik.com/free-photo/child-docto-rs-office_1098-19672.jpg?t=st=1716805797~exp=1716809397~hmac=fe853455bd5532f63d01650c0e12bffea229bdb6776c2a34363315ff868032f1&w=740",
+      "name": "Pediatrics ",
+      "service": "8.00-10.00",
+      "Details": "Pediatrics is the branch of medicine dealing with the health and medical care of infants, children, and adolescents from birth up to the age of 18. "
+   },
+   {
+      "image":"https://img.freepik.com/free-photo/skin-allergy-person-s-arm_23-2149140509.jpg?t=st=1716805866~exp=1716809466~hmac=48a6ae9e3f39e9bcb79e91f04ee4a9cc9466716d5d4892151a0a4e12cc3bfa37&w=740",
+      "name": "Dermatology ",
+      "service": "8.00-10.00",
+      "Details": "Dermatology is the branch of medicine dealing with the skin. It is a speciality with both medical and surgical aspects."
+   },
+   {
+      "image":"https://img.freepik.com/premium-photo/untitled-design-7_938508-5962.jpg?w=740",
+      "name": "Gastroenterology ",
+      "service": "8.00-10.00",
+      "Details": "Gastroenterology is the study of the normal function and diseases of the esophagus, stomach, small intestine, colon and rectum, pancreas, gallbladder, bile ducts and liver."
+   },
+   {
+      "image":"https://img.freepik.com/premium-photo/anatomy-thyroid-gland-human-body-white-thyroid-control_76964-187426.jpg?w=826",
+      "name": "Endocrinology ",
+      "service": "8.00-10.00",
+      "Details": "Endocrinology is the study of hormones and endocrine glands and organs."
+   },
+   {
+      "image":"https://img.freepik.com/premium-photo/cigarette-is-being-held-up-by-cigarette_1103821-958.jpg?w=740",
+      "name": "Pulmonology  ",
+      "service": "8.00-10.00",
+      "Details": "Pulmonology often involves managing patients who need life support and mechanical ventilation."
+   },
+   {
+      "image":"https://img.freepik.com/premium-photo/human-kidney_981061-10674.jpg?w=740 ",
+      "name": "Urology",
+      "service": "8.00-10.00",
+      "Details": "Urology is a part of health care that deals with diseases of the male and female urinary tract (kidneys, ureters, bladder and urethra)."
+   }
+
+]
