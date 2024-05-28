@@ -36,10 +36,10 @@ const Gallery = () => {
          <section className="py-6 bg-[#1a504a]">
 	<div className="container flex flex-col justify-center p-4 mx-auto">
 		<div className="grid grid-cols-1 gap-4 lg:grid-cols-4 sm:grid-cols-2">
-			<img className="object-cover w-full bg-gray-500 aspect-square" src="https://source.unsplash.com/random/300x300/?1" />
-			<img className="object-cover w-full bg-gray-500 aspect-square" src="https://source.unsplash.com/random/300x300/?2" />
-			<img className="object-cover w-full bg-gray-500 aspect-square" src="https://source.unsplash.com/random/300x300/?3" />
-			<img className="object-cover w-full bg-gray-500 aspect-square" src="https://source.unsplash.com/random/300x300/?4" />
+			<img className="object-cover w-full bg-gray-500 aspect-square" src="https://img.freepik.com/premium-photo/arab-doctor-office-with-tablet-stethoscope-nurse-working-with-patient-background_155404-16.jpg?w=740" />
+			<img className="object-cover w-full bg-gray-500 aspect-square" src="https://img.freepik.com/premium-photo/doctor-sitting-modern-medical-office-interior_1456-3504.jpg?w=826" />
+			<img className="object-cover w-full bg-gray-500 aspect-square" src="https://img.freepik.com/free-photo/doctor-holding-medical-report-hospital-corridor_107420-84819.jpg?t=st=1716891101~exp=1716894701~hmac=2562c3acd9d7c3ccd1697a0e0fae203ef7538c268e77d831402a26c6520a31da&w=740" />
+			<img className="object-cover w-full bg-gray-500 aspect-square" src="https://img.freepik.com/premium-photo/doctors-meeting-hospital_13339-238595.jpg?w=740" />
 		</div>
 	</div>
 </section>
