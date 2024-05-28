@@ -40,10 +40,10 @@ useEffect(() => {
          <li><NavLink to="/" >Home</NavLink></li>
          <li><NavLink to="/about" >About</NavLink></li>
          <li><NavLink to="/appo" >Appointment</NavLink></li>
-         <li><NavLink to="/ser" >Service</NavLink></li>
          <li><NavLink to="/doc" >Doctor</NavLink></li>
          <li><NavLink to="/depart" >Departments</NavLink></li>
          <li><NavLink to="/blog" >Blog</NavLink></li>
+         <li><NavLink to="/gallery" >Gallery</NavLink></li>
         
     
     

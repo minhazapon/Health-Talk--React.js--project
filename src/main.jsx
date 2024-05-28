@@ -21,6 +21,7 @@ import Doc3 from './Doctor/Doc3';
 import Doc4 from './Doctor/Doc4';
 import Doc5 from './Doctor/Doc5';
 import Doc6 from './Doctor/Doc6';
+import Gallery from './Gallery/Gallery';
 
 
 const router = createBrowserRouter([
@@ -83,6 +84,10 @@ const router = createBrowserRouter([
       {
         path: "/doc6",
         element: <Doc6></Doc6>,
+      },
+      {
+        path: "/gallery",
+        element: <Gallery></Gallery>,
       },
       
     ],
