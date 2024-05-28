@@ -29,7 +29,7 @@ const Address = () => {
 
                  <div>
                      <h1 className=" text-xl font-bold">Our Locations</h1>
-                     <p className=" text-xl mt-3">Dhanmondi 17,<br></br> Dhaka -1200, Bangladesh</p>
+                     <p className=" text-xl mt-3">New York 17,<br></br> Street -1200, America</p>
                  </div>
                 </div>
 

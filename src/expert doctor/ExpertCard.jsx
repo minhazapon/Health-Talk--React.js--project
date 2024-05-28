@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 
 
 
@@ -40,8 +41,10 @@ const ExpertCard = () => {
                  </svg>
                     <h1 className="  text-slate-500">$20</h1>
                  </div>
-
+                 
+                 <Link to="/ex1">
                  <button className=" btn bg-blue-500 text-white mt-5">View profile</button>
+                 </Link>
                </div>
 
 
@@ -77,7 +80,10 @@ const ExpertCard = () => {
                  </svg>
                     <h1 className="  text-slate-500">$20</h1>
                  </div>
+
+                  <Link to="/ex2">
                  <button className=" btn bg-blue-500 text-white mt-5">View profile</button>
+                 </Link>
 
                </div>
 
@@ -116,8 +122,10 @@ const ExpertCard = () => {
                  </svg>
                     <h1 className="  text-slate-500">$20</h1>
                  </div>
-                 <button className=" btn bg-blue-500 text-white mt-5">View profile</button>
 
+                 <Link to="/ex3">
+                 <button className=" btn bg-blue-500 text-white mt-5">View profile</button>
+                 </Link>
                </div>
 
 

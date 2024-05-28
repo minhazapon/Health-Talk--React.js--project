@@ -22,6 +22,9 @@ import Doc4 from './Doctor/Doc4';
 import Doc5 from './Doctor/Doc5';
 import Doc6 from './Doctor/Doc6';
 import Gallery from './Gallery/Gallery';
+import ALLService from './Home files/ALLService';
+import EX1 from './expert doctor/EX1';
+import EX2 from './expert doctor/EX2';
 
 
 const router = createBrowserRouter([
@@ -88,6 +91,18 @@ const router = createBrowserRouter([
       {
         path: "/gallery",
         element: <Gallery></Gallery>,
+      },
+      {
+        path: "/all",
+        element: <ALLService></ALLService>,
+      },
+      {
+        path: "/ex1",
+        element: <EX1></EX1>,
+      },
+      {
+        path: "/ex2",
+        element: <EX2></EX2>,
       },
       
     ],

@@ -34,19 +34,19 @@ const Service = () => {
 
                         <div className=" flex-col md:flex-row lg:flex-row mt-3 flex  gap-2    rounded-xl">
                          <button className=" text-white bg-blue-500 rounded-xl btn">Protection</button>
-                         <button className=" text-white bg-blue-500 rounded-xl btn">Dentisty</button>
+                         <button className=" text-white bg-blue-500 rounded-xl btn">Operation</button>
                          <button className=" text-white bg-blue-500 rounded-xl btn">Surgery</button>
                         </div>
 
 
                         <div>
-                          <img className=" mt-5 h-[200px] w-[450px] rounded-xl " src="https://img.freepik.com/premium-photo/male-dentist-with-plastic-jaw-model-light-background_265022-22058.jpg?w=996" alt="" />
+                          <img className=" mt-5 h-[200px] w-[450px] rounded-xl " src="https://img.freepik.com/free-psd/interior-view-operating-room-generative-ai_587448-1909.jpg?t=st=1716910872~exp=1716914472~hmac=15fc3919a2f6eaa898bbe34a5d9c6737305cbedc280cd38a64bc43b8db408458&w=826" alt="" />
                         </div>
 
 
                         <div className=" mt-5">
 
-                           <h1 className=" text-2xl font-bold">Dental Teeth Therapy</h1>
+                           <h1 className=" text-2xl font-bold">Medical Therapy</h1>
                            <p className=" text-xl text-slate-500 mt-3">These services can be <br></br>
                            delivered in various <br></br>
                             settings, including hospitals, <br></br>
