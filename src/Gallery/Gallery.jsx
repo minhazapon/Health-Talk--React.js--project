@@ -1,3 +1,4 @@
+import Slide from "./Slide";
 
 
 
@@ -6,6 +7,9 @@
 const Gallery = () => {
     return (
         <div className=" mb-10 mt-10 ml-10 mr-10">
+
+
+			 <Slide></Slide>
 
             <div>
 

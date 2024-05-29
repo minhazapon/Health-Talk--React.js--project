@@ -22,9 +22,22 @@ const SignUp = () => {
 	<form noValidate="" action="" className="space-y-12">
 		<div className="space-y-4">
 			<div>
+				<label htmlFor="email" className="block mb-2 text-sm">Full Name</label>
+				<input placeholder="Full Name" className="w-full px-3 py-2 border rounded-md border-gray-700 bg-white text-black" name="name" type="text" />
+			</div>
+
+
+			<div>
 				<label htmlFor="email" className="block mb-2 text-sm">Email address</label>
 				<input type="email" name="email" id="email" placeholder="Email" className="w-full px-3 py-2 border rounded-md border-gray-700 bg-white text-black" />
 			</div>
+
+
+
+
+
+
+
 			<div>
 				<div className="flex justify-between mb-2">
 					<label htmlFor="password" className="text-sm">Password</label>
@@ -35,7 +48,7 @@ const SignUp = () => {
 		</div>
 		<div className="space-y-2">
 			<div>
-				<button type="button" className="w-full px-8 py-3 font-semibold rounded-md bg-white btn text-black">Sign in</button>
+				<button type="button" className="w-full px-8 py-3 font-semibold rounded-md bg-white btn text-black">Sign Up</button>
 			</div>
 			
 		</div>
