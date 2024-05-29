@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 
 
 
@@ -54,8 +55,11 @@ const Service = () => {
                               and via telemedicine. Here's an <br></br>
                                overview of the key <br></br>
                                 aspects of doctor services:</p>
-
+                            
+                            <Link to="/details" >
                             <button className=" mt-5 btn  border-[1px] border-blue-500 text-blue-500">More Details</button>
+
+                            </Link>
 
 
 

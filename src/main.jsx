@@ -25,6 +25,8 @@ import Gallery from './Gallery/Gallery';
 import ALLService from './Home files/ALLService';
 import EX1 from './expert doctor/EX1';
 import EX2 from './expert doctor/EX2';
+import EX3 from './expert doctor/EX3';
+import Details from './Home files/Details';
 
 
 const router = createBrowserRouter([
@@ -103,6 +105,14 @@ const router = createBrowserRouter([
       {
         path: "/ex2",
         element: <EX2></EX2>,
+      },
+      {
+        path: "/ex3",
+        element: <EX3></EX3>,
+      },
+      {
+        path: "/details",
+        element: <Details></Details>,
       },
       
     ],
