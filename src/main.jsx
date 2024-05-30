@@ -27,6 +27,7 @@ import EX1 from './expert doctor/EX1';
 import EX2 from './expert doctor/EX2';
 import EX3 from './expert doctor/EX3';
 import Details from './Home files/Details';
+import BookForm from './BookForm.jsx/BookForm';
 
 
 const router = createBrowserRouter([
@@ -113,6 +114,10 @@ const router = createBrowserRouter([
       {
         path: "/details",
         element: <Details></Details>,
+      },
+      {
+        path: "/form",
+        element: <BookForm></BookForm>,
       },
       
     ],

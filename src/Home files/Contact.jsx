@@ -1,8 +1,38 @@
+import { useRef } from "react";
 
 
 
 
 const Contact = () => {
+       
+      const nameRef = useRef(null)
+      const numRef = useRef(null)
+      const emailRef = useRef(null)
+      const docRef = useRef(null)
+      const dateRef = useRef(null)
+      const TimeRef = useRef(null)
+
+
+     const handleBook = e => {
+
+      e.preventDefault();
+      console.log(nameRef.current.value)
+      console.log(numRef.current.value)
+      console.log(emailRef.current.value)
+      console.log(docRef.current.value)
+      console.log(dateRef.current.value)
+      console.log(TimeRef.current.value)
+
+
+
+
+     }
+
+
+
+
+
+
     return (
         <div className=" mb-10 mt-20 ml-10 mr-10">
 
@@ -36,32 +66,43 @@ const Contact = () => {
 
 
             <div className=" flex-col md:flex-row lg:flex-row">
-                <form>
+                <form onSubmit={handleBook} >
 
                   <div className=" flex-col md:flex-row lg:flex-row flex items-center gap-5">
-                  <input className=" p-3 rounded-xl border-[1px] border-blue-900" placeholder="Name" name="name"  type="text" />
-                  <input className=" p-3 rounded-xl border-[1px] border-blue-900" placeholder="Email" type="email" name="email" id="" />
+                  <input ref={nameRef} className=" p-3 rounded-xl border-[1px] border-blue-900" placeholder="Name" name="name"  type="text" />
+                  <input ref={emailRef} className=" p-3 rounded-xl border-[1px] border-blue-900" placeholder="Email" type="email" name="email" id="" />
 
                   </div>
 
 
                   <div className=" flex-col md:flex-row lg:flex-row mt-2 flex items-center gap-5">
-                  <input className=" p-3 rounded-xl border-[1px] border-blue-900" placeholder="Number" type="number" name="phone" id="" />
-                   <input className=" p-3 rounded-xl border-[1px] border-blue-900" type="text" placeholder="Doctor Name" />
+                  <input ref={numRef} className=" p-3 rounded-xl border-[1px] border-blue-900" placeholder="Number" type="number" name="phone" id="" />
+                   <input ref={docRef} className=" p-3 rounded-xl border-[1px] border-blue-900" type="text" placeholder="Doctor Name" />
                   </div>
 
                   
                   <div className=" flex-col md:flex-row lg:flex-row mt-2 flex items-center gap-5">
-                  <input className=" p-3 w-[207px] rounded-xl border-[1px] border-blue-900" placeholder="Date" type="date" name="date" id="" />
-                  <input className=" p-3 w-[207px] rounded-xl border-[1px] border-blue-900" placeholder="Time" type="time" name="time" id="" />
+                  <input ref={dateRef} className=" p-3 w-[207px] rounded-xl border-[1px] border-blue-900" placeholder="Date" type="date" name="date" id="" />
+                  <input ref={TimeRef} className=" p-3 w-[207px] rounded-xl border-[1px] border-blue-900" placeholder="Time" type="time" name="time" id="" />
 
                   </div>
                   
-                 <input className=" flex-col md:flex-row lg:flex-row btn mt-2   w-[205px] bg-blue-500 text-white " type="submit" value="Book Now" />
+
+                 
+                {/* You can open the modal using document.getElementById('ID').showModal() method */}
+               
+                <input onClick={()=>document.getElementById('my_modal_4').showModal()} className="  flex-col md:flex-row lg:flex-row btn mt-2   w-[205px] bg-blue-500 text-white " type="submit" value="Book Now" />
+                <dialog id="my_modal_4" className="modal">
+                  <div className="modal-box flex items-center justify-center gap-5 ">
+                    <h3 className="font-bold text-blue-500 text-5xl">Book Done</h3>
+                    <img className=" h-[100px]" src="https://i.ibb.co/4t6Z8ms/checkmark.png" alt="" />
+                 
+                   
+                  </div>
+                </dialog>
 
                 </form>
             </div>
-
 
 
 

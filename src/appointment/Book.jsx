@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 
 
 const Book = () => {
@@ -23,7 +24,10 @@ const Book = () => {
                     <p className=" text-2xl font-bold ">Cardiology</p>
                     </div>
                     <h1 className=" mt-2 font-semibold  ">Time: 2.00pm-8.00am </h1>
+                    <Link to="/form" >
                     <button className=" text-white mt-2 btn bg-blue-400  ">Book Appointment </button>
+
+                    </Link>
                  </div>
                  
                  
@@ -35,8 +39,10 @@ const Book = () => {
                     <p className=" text-2xl font-bold ">neurology</p>
                     </div>
                     <h1 className=" mt-2 font-semibold  ">Time: 2.00pm-8.00am </h1>
+                    <Link to="/form" >
                     <button className=" text-white mt-2 btn bg-blue-400  ">Book Appointment </button>
-                 </div>
+
+                    </Link>                 </div>
                  
                  
                  <div className="  bg-blue-100  p-2 rounded-xl ">
@@ -46,8 +52,10 @@ const Book = () => {
                      </div>
                    
                     <h1 className=" mt-2 font-semibold  ">Time: 2.00pm-8.00am </h1>
+                    <Link to="/form" >
                     <button className=" text-white mt-2 btn bg-blue-400  ">Book Appointment </button>
-                 </div>
+
+                    </Link>                 </div>
                  
                  
                  <div className="  bg-blue-100  p-2 rounded-xl ">
@@ -58,8 +66,10 @@ const Book = () => {
                     
 
                     <h1 className=" mt-2 font-semibold  ">Time: 2.00pm-8.00am </h1>
+                    <Link to="/form" >
                     <button className=" text-white mt-2 btn bg-blue-400  ">Book Appointment </button>
-                 </div>
+
+                    </Link>                 </div>
                  
                  
                  <div className="   bg-blue-100  p-2 rounded-xl ">
@@ -71,8 +81,10 @@ const Book = () => {
                     
 
                     <h1 className=" mt-2 font-semibold  ">Time: 2.00pm-8.00am </h1>
+                    <Link to="/form" >
                     <button className=" text-white mt-2 btn bg-blue-400  ">Book Appointment </button>
-                 </div>
+
+                    </Link>                 </div>
                  
                  
                  <div className="  bg-blue-100  p-2 rounded-xl  ">
@@ -84,8 +96,10 @@ const Book = () => {
                     
 
                     <h1 className=" mt-2 font-semibold  ">Time: 2.00pm-8.00am </h1>
+                    <Link to="/form" >
                     <button className=" text-white mt-2 btn bg-blue-400  ">Book Appointment </button>
-                 </div>
+
+                    </Link>                 </div>
                  
                  </div>
                  
