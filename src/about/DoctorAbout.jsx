@@ -1,9 +1,12 @@
 
+import Marquee from "react-fast-marquee";
 
 
 const DoctorAbout = () => {
     return (
         <div className=" mb-10 mt-20 ml-10 mr-10">
+
+            <Marquee>
 
             <div>
 
@@ -44,6 +47,9 @@ const DoctorAbout = () => {
 
 
             </div>
+
+
+            </Marquee>
             
         </div>
     );

@@ -1,5 +1,7 @@
 
 
+import Marquee from "react-fast-marquee";
+
 
 const Please = () => {
     return (
@@ -15,6 +17,8 @@ const Please = () => {
 
                  {/* category field ------------------------------------------------------------------ */}
 
+
+                 <Marquee>
 
                  <div className=" flex justify-center mt-10">
                  <div className=" grid  md:grid-cols-3 gap-5">
@@ -59,6 +63,10 @@ const Please = () => {
                  
                  </div>
 
+
+
+                 </Marquee>
+                 
 
 
 

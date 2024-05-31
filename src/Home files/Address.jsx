@@ -1,15 +1,16 @@
 
 
 
+import Marquee from "react-fast-marquee";
 
 
 const Address = () => {
     return (
         <div className=" mb-10  mt-20 ml-10 mr-10">
 
+            <Marquee>
             <div className=" flex justify-center items-center  gap-10 bg-slate-200 p-4 rounded-xl flex-col md:flex-row lg:flex-row ">
                 
-
                 <div className=" flex justify-center items-center gap-5 bg-[#1a504a]  h-[170px] w-[300px]  rounded-xl text-white  ">
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-10">
                 <path strokeLinecap="round" strokeLinejoin="round" d="M12 6v6h4.5m4.5 0a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
@@ -23,9 +24,9 @@ const Address = () => {
 
                 <div className=" flex justify-center items-center gap-5 bg-blue-500 h-[170px] w-[300px] rounded-xl text-white ">
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-6">
-  <path strokeLinecap="round" strokeLinejoin="round" d="M15 10.5a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" />
-  <path strokeLinecap="round" strokeLinejoin="round" d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1 1 15 0Z" />
-</svg>
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M15 10.5a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" />
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1 1 15 0Z" />
+                </svg>
 
                  <div>
                      <h1 className=" text-xl font-bold">Our Locations</h1>
@@ -46,15 +47,11 @@ const Address = () => {
                           +88 01750 00 00 00</p>
                  </div>
                 </div>
-
-
-
-
-
-
-
-
             </div>
+            
+            
+            </Marquee>
+
             
         </div>
     );

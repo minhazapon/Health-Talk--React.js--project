@@ -1,5 +1,7 @@
 import { Link } from "react-router-dom";
 
+import Marquee from "react-fast-marquee";
+
 
 
 
@@ -7,6 +9,8 @@ const ExpertCard = () => {
 
     return (
         <div className=" mb-10 mt-10 ml-10 mr-10">
+
+            <Marquee>
 
             <div className=" flex-col md:flex-row lg:flex-row flex justify-center items-center gap-5 ">
 
@@ -134,6 +138,9 @@ const ExpertCard = () => {
 
 
             </div>
+
+
+            </Marquee>
             
         </div>
     );
