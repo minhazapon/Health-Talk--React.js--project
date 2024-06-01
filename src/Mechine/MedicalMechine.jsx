@@ -8,7 +8,7 @@ const MedicalMechine = () => {
 
 
     return (
-        <div className=" animate__animated animate__flip animate__repeat-2 border-[1px]  border-black p-5  rounded-xl  bg-slate-100 mb-10 mt-10 ml-10 mr-10">
+        <div className=" animate__animated animate__flip animate__repeat-2 border-[5px]  border-blue-100 p-5  rounded-xl  bg-slate-100 mb-10 mt-10 ml-10 mr-10">
 
             <div className=" mb-10 mt-10 text-center">
 
