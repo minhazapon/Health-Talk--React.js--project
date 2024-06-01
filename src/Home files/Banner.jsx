@@ -1,10 +1,12 @@
 import { Link } from "react-router-dom";
 
+import 'animate.css';
+
 
 
 const Banner = () => {
     return (
-        <div className=" mb-10  mt-16 ml-10 mr-10">
+        <div className=" animate__animated animate__flipInY animate__repeat-2   mb-10  mt-16 ml-10 mr-10">
 
              <div className=" flex-col md:flex-row lg:flex-row  bg-[#1a504a] text-white  p-14 rounded-xl flex justify-center items-center gap-20">
                
@@ -21,7 +23,7 @@ const Banner = () => {
                </div>
 
                 
-               <div className=" flex-col md:flex-row lg:flex-row">
+               <div className=" animate__animated animate__flip animate__repeat-2 flex-col md:flex-row lg:flex-row">
 
                  <div className=" flex-col md:flex-row lg:flex-row  flex items-center gap-5">
                     <img className=" border-[5px] border-blue-500  h-[200px] w-[300px] rounded-xl"

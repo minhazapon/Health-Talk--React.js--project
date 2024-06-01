@@ -9,7 +9,7 @@ const DEpartDetails = ({depart}) => {
     return (
         <div className="  ">
 
-<div className="card w-96 h-[700px] border-[3px] border-blue-100 p-3 bg-base-100 shadow-xl">
+<div className="  animate__animated animate__heartBeat animate__repeat-2  card w-96 h-[700px] border-[3px] border-blue-100 p-3 bg-base-100 shadow-xl">
   <figure><img className=" h-[300px] w-[400px]" src={image} alt="" /></figure>
   <div className="card-body">
     <h2 className="card-title">

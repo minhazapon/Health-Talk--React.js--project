@@ -1,4 +1,5 @@
 
+import Marquee from "react-fast-marquee";
 
 
 const Blog1 = () => {
@@ -68,11 +69,16 @@ const Blog1 = () => {
 </section>
 
 
-
+               <Marquee>
                <div className=" flex-col md:flex-row lg:flex-row mt-20 text-center flex items-center gap-5 justify-center bg-blue-100 p-2 rounded-xl ">
+
+				
+					
 				<h1 className=" text-6xl font-bold  text-blue-500 ">Thanks For Believe Us </h1>
 				<img className=" h-[70px]" src="https://i.ibb.co/3dcS8V1/medical-team.png" alt="" />
 			   </div>
+			   
+				</Marquee>
 
 
 			   

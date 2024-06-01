@@ -18,7 +18,7 @@ const Book = () => {
               <div className=" flex justify-center  mt-20">
                  <div className=" grid  md:grid-cols-3 gap-5">
                  
-                 <div className="  bg-blue-100  p-2 rounded-xl ">
+                 <div className=" animate__animated animate__flip animate__repeat-2  animate__flip bg-blue-100  p-2 rounded-xl ">
                     <div className="flex items-center gap-5 ">
                     <img className=" h-[80px]" src="https://i.ibb.co/MDJ3xQq/cardiology.png" alt="" />
                     <p className=" text-2xl font-bold ">Cardiology</p>
@@ -32,9 +32,9 @@ const Book = () => {
                  
                  
                  
-                 <div className="  bg-blue-100  p-2 rounded-xl ">
+                 <div className=" animate__animated animate__flip animate__repeat-2  bg-blue-100  p-2 rounded-xl ">
                     
-                    <div className=" flex items-center gap-5">
+                    <div className="  flex items-center gap-5">
                     <img className="  h-[80px]" src="https://i.ibb.co/XCCFgYp/neurology.png" alt="" />
                     <p className=" text-2xl font-bold ">neurology</p>
                     </div>
@@ -42,10 +42,11 @@ const Book = () => {
                     <Link to="/form" >
                     <button className=" text-white mt-2 btn bg-blue-400  ">Book Appointment </button>
 
-                    </Link>                 </div>
+                    </Link>
+                      </div>
                  
                  
-                 <div className="  bg-blue-100  p-2 rounded-xl ">
+                 <div className=" animate__animated animate__flip animate__repeat-2  bg-blue-100  p-2 rounded-xl ">
                      <div className=" flex items-center gap-5">
                      <img className=" h-[80px]" src="https://i.ibb.co/1vT2q0g/arthritis.png" alt="" />
                     <p className=" text-2xl font-bold ">orthopedics</p>
@@ -55,10 +56,11 @@ const Book = () => {
                     <Link to="/form" >
                     <button className=" text-white mt-2 btn bg-blue-400  ">Book Appointment </button>
 
-                    </Link>                 </div>
+                    </Link> 
+                    </div>
                  
                  
-                 <div className="  bg-blue-100  p-2 rounded-xl ">
+                 <div className=" animate__animated animate__flip animate__repeat-2  bg-blue-100  p-2 rounded-xl ">
                     <div className="flex items-center gap-5 ">
                     <img className=" h-[80px]" src="https://i.ibb.co/XjyXSJb/pediatrics.png" alt="" />
                     <p className=" text-2xl font-bold ">pediatrics</p>
@@ -72,7 +74,7 @@ const Book = () => {
                     </Link>                 </div>
                  
                  
-                 <div className="   bg-blue-100  p-2 rounded-xl ">
+                 <div className="  animate__animated animate__flip animate__repeat-2  bg-blue-100  p-2 rounded-xl ">
                      
                      <div className=" flex items-center gap-5">
                      <img className=" h-[80px]" src="https://i.ibb.co/JskJCKH/bowel-cancer.png" alt="" />
@@ -87,7 +89,7 @@ const Book = () => {
                     </Link>                 </div>
                  
                  
-                 <div className="  bg-blue-100  p-2 rounded-xl  ">
+                 <div className="  animate__animated animate__flip animate__repeat-2 bg-blue-100  p-2 rounded-xl  ">
                      
                      <div className=" flex items-center gap-5">
                      <img className=" h-[80px]" src="https://i.ibb.co/HzmvsDY/dermatology.png" alt="" />

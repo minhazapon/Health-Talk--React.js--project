@@ -10,7 +10,7 @@ const Service = () => {
             <div className=" flex-col md:flex-row lg:flex-row flex justify-center  gap-10">
 
                   
-                    <div>
+                    <div className=" animate__animated animate__flip animate__repeat-2">
 
                        <img className=" flex-col md:flex-row lg:flex-row h-[820px] w-[500px] rounded-xl" src="https://img.freepik.com/premium-photo/doctor-st-svukt-rsyzsefd_727289-22.jpg?w=360" alt="" />
 
@@ -18,7 +18,7 @@ const Service = () => {
 
                      
 
-                     <div>
+                     <div className=" animate__animated animate__lightSpeedInRight animate__repeat-2">
 
 
 

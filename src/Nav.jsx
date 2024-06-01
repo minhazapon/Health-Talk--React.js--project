@@ -4,6 +4,8 @@ import { Link, NavLink } from "react-router-dom";
 import { useEffect, useState } from 'react'
 // -----------------------------------------
 
+import MovingText from 'react-moving-text'
+
 
 
 
@@ -55,7 +57,7 @@ useEffect(() => {
     return (
         <div>
 
-<div className="navbar  shadow-lg bg-base-100">
+<div className="navbar shadow-lg bg-base-100">
   <div className="navbar-start">
     <div className="dropdown">
       <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -71,7 +73,18 @@ useEffect(() => {
 
     <div className=" flex items-center gap-1">
     <img className=" h-[40px]" src="https://i.ibb.co/nPHNzLj/diabetes.png" alt="" />
-    <a className=" text-2xl font-bold    text-blue-500"><span className=" text-red-500">Health</span> Talk</a>
+    
+    <MovingText
+  type="flipFromLeftToCenter"
+  duration="1000ms"
+  delay="0s"
+  direction="normal"
+  timing="ease"
+  iteration="5"
+  fillMode="none">
+     <a className=" text-2xl font-bold    text-blue-500"><span className=" text-red-500">Health</span> Talk</a>
+
+     </MovingText>
     </div>
     {/* text-[#1a504a] */}
   </div>

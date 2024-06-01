@@ -25,7 +25,7 @@ const Review = () => {
 
 
 
-            <div className=' mt-20'>
+            <div className=' animate__animated animate__heartBeat animate__repeat-2 mt-20'>
 
 
             <Swiper navigation={true} modules={[Navigation]} className="mySwiper">

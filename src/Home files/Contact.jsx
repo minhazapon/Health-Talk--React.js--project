@@ -40,7 +40,7 @@ const Contact = () => {
            <div className=" flex-col md:flex-row lg:flex-row flex justify-center items-center gap-28 bg-[#1a504a] p-10 rounded-xl ">
 
 
-            <div className=" flex-col md:flex-row lg:flex-row text-white">
+            <div className=" animate__animated animate__flip animate__repeat-2 flex-col md:flex-row lg:flex-row text-white">
                 <h1 className=" text-5xl font-bold">Contact With Us</h1>
                 <p className=" mt-5 text-xl text-white">Find the contact information for <br></br>
                 the doctor or medical practice.<br></br>
@@ -65,7 +65,7 @@ const Contact = () => {
 
 
 
-            <div className=" flex-col md:flex-row lg:flex-row">
+            <div className=" animate__animated animate__flip animate__repeat-2 flex-col md:flex-row lg:flex-row">
                 <form onSubmit={handleBook} >
 
                   <div className=" flex-col md:flex-row lg:flex-row flex items-center gap-5">
@@ -91,7 +91,7 @@ const Contact = () => {
                  
                 {/* You can open the modal using document.getElementById('ID').showModal() method */}
                
-                <input onClick={()=>document.getElementById('my_modal_4').showModal()} className="  flex-col md:flex-row lg:flex-row btn mt-2   w-[205px] bg-blue-500 text-white " type="submit" value="Book Now" />
+                <input onClick={()=>document.getElementById('my_modal_4').showModal()} className=" animate__animated animate__heartBeat animate__repeat-2  flex-col md:flex-row lg:flex-row btn mt-2   w-[205px] bg-blue-500 text-white " type="submit" value="Book Now" />
                 <dialog id="my_modal_4" className="modal">
                   <div className="modal-box flex items-center justify-center gap-5 ">
                     <h3 className="font-bold text-blue-500 text-5xl">Book Done</h3>

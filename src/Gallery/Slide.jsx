@@ -12,6 +12,9 @@ import 'swiper/css/pagination';
 // import required modules
 import { EffectCoverflow, Pagination } from 'swiper/modules';
 
+import Marquee from "react-fast-marquee";
+
+
 
 
 
@@ -21,13 +24,15 @@ const Slide = () => {
     return (
         <div className=" mb-10 mt-10 ml-10 mr-10">
             
-
-            <div className=' mb-10 text-center '>
+             <Marquee>
+              <div className=' mb-10 text-center '>
                 <h1 className=' text-4xl font-bold text-blue-500 '>Our Gallery</h1>
                 <p className=' text-5xl font-bold text-slate-500'>Every Moment Is Life</p>
-            </div>
+              </div>
+             </Marquee>
+            
 
-            <hr></hr>
+            <hr className=' mb-10 mt-10'></hr>
 
             <div className=' bg-blue-100 p-5 rounded-xl '>
 

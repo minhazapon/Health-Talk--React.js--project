@@ -1,5 +1,8 @@
 import { Link } from "react-router-dom";
 
+import Marquee from "react-fast-marquee";
+
+
 
 
 const OurDoctor = () => {
@@ -7,8 +10,15 @@ const OurDoctor = () => {
         <div className=" mb-10 mt-10 ml-10 mr-10">
 
             <div className=" flex-col md:flex-row lg:flex-row bg-blue-100 p-3 rounded-xl mb-10 ml-10 mr-10 text-center">
+               <Marquee>
+
+               <div> 
                 <h1 className=" text-5xl font-bold text-blue-500">Our Best Doctor </h1>
                 <p className=" text-xl text-slate-500 mt-5">"Wherever the art of Medicine is loved, there is also a love of Humanity."</p>
+                </div>
+                
+               </Marquee>
+               
             </div>
 
 
@@ -17,7 +27,7 @@ const OurDoctor = () => {
 
 
 
-<div className=" border-[1px]  border-b-slate-500   rounded-xl p-5 ">
+<div className="  animate__animated  animate__flip animate__repeat-2 border-[1px]  border-b-slate-500   rounded-xl p-5 ">
          <img className=" h-[200px] w-[300px] rounded-xl" src="https://img.freepik.com/free-photo/cheerful-doctor-making-notes-looking-away_23-2147896151.jpg?t=st=1716817442~exp=1716821042~hmac=834bf220ab4882930ff10cafee3b18f8582efe164e0f8cf96316317a49a6cc42&w=740" alt="" />
         <h1 className=" text-xl font-bold mt-3">Dr. John Smith</h1>
         <p className=" text-slate-400 ">BTP -  Senior General Surgeon</p>
@@ -56,7 +66,7 @@ const OurDoctor = () => {
 {/* ------------------------------------------------------------------------- */}
 
 
-<div className=" border-[1px]  border-b-slate-500   rounded-xl p-5 ">
+<div className=" animate__animated  animate__flip animate__repeat-2 border-[1px]  border-b-slate-500   rounded-xl p-5 ">
          <img className=" h-[200px] w-[300px] rounded-xl" src="https://img.freepik.com/free-photo/pleased-young-male-doctor-with-medical-glasses-wearing-medical-robe-with-stethoscope-standing-front-desk_141793-98689.jpg?t=st=1716817557~exp=1716821157~hmac=28a6ab986e4d7abddc453913b64005756ed844b4b172d9836e2c7d764ef7f682&w=740" alt="" />
         <h1 className=" text-xl font-bold mt-3">Dr. Emily Johnson</h1>
         <p className=" text-slate-400 ">BTP -  Senior Orthopedic Surgeon</p>
@@ -97,7 +107,7 @@ const OurDoctor = () => {
 
 
 
-<div className=" border-[1px]  border-b-slate-500   rounded-xl p-5 ">
+<div className=" animate__animated  animate__flip animate__repeat-2 border-[1px]  border-b-slate-500   rounded-xl p-5 ">
          <img className=" h-[200px] w-[300px] rounded-xl" src="https://img.freepik.com/free-photo/handsome-young-male-doctor-with-stethoscope-standing-against-blue-background_662251-343.jpg?t=st=1716817619~exp=1716821219~hmac=bdea0620a04b7a081a7d418073b9d51ce8ab24bfc723076c597a2f9b5b4eb568&w=740" alt="" />
         <h1 className=" text-xl font-bold mt-3">Dr. Michael Brown</h1>
         <p className=" text-slate-400 ">BTP -  Senior Cardiothoracic Surgeon</p>
@@ -138,7 +148,7 @@ const OurDoctor = () => {
 
 
 
-<div className=" border-[1px]  border-b-slate-500   rounded-xl p-5 ">
+<div className=" animate__animated  animate__flip animate__repeat-2 border-[1px]  border-b-slate-500   rounded-xl p-5 ">
          <img className=" h-[200px] w-[300px] rounded-xl" src="https://img.freepik.com/free-photo/young-handsome-physician-medical-robe-with-stethoscope_1303-17819.jpg?t=st=1716817676~exp=1716821276~hmac=76a251fb8a4305ba81e71a45933566d0519dcaf1c649dff246cb963d3170152c&w=740" alt="" />
         <h1 className=" text-xl font-bold mt-3">Dr. Laura</h1>
         <p className=" text-slate-400 ">BTP -  Senior Neurosurgeon</p>
@@ -179,7 +189,7 @@ const OurDoctor = () => {
 
 
 
-<div className=" border-[1px]  border-b-slate-500   rounded-xl p-5 ">
+<div className=" animate__animated  animate__flip animate__repeat-2 border-[1px]  border-b-slate-500   rounded-xl p-5 ">
          <img className=" h-[200px] w-[300px] rounded-xl" src="https://img.freepik.com/premium-photo/portrait-man-standing-against-white-background_1048944-8953746.jpg?w=740" alt="" />
         <h1 className=" text-xl font-bold mt-3">Dr. Sarah White</h1>
         <p className=" text-slate-400 ">BTP -  Senior Cardiologist</p>
@@ -220,7 +230,7 @@ const OurDoctor = () => {
 
 
 
-<div className=" border-[1px]  border-b-slate-500   rounded-xl p-5 ">
+<div className=" animate__animated  animate__flip animate__repeat-2 border-[1px]  border-b-slate-500   rounded-xl p-5 ">
          <img className=" h-[200px] w-[300px] rounded-xl" src="https://img.freepik.com/premium-photo/handsome-young-doctor-isolated-white_488220-49442.jpg?w=740" alt="" />
         <h1 className=" text-xl font-bold mt-3">Dr. David Green</h1>
         <p className=" text-slate-400 ">BTP -  Senior Endocrinologist</p>
