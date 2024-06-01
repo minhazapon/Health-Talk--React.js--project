@@ -38,24 +38,37 @@ useEffect(() => {
 // --------------------------------------
 
     const links = <>
-    
+         
+         <div className="tooltip" data-tip="Home">
          <li><NavLink to="/" >Home</NavLink></li>
+         </div>
+         <div className="tooltip" data-tip="About">
          <li><NavLink to="/about" >About</NavLink></li>
+         </div>
+         <div className="tooltip" data-tip="Appointment">
          <li><NavLink to="/appo" >Appointment</NavLink></li>
+         </div>
+         <div className="tooltip" data-tip="Doctor">
          <li><NavLink to="/doc" >Doctor</NavLink></li>
+         </div>
+         <div className="tooltip" data-tip="Departments">
          <li><NavLink to="/depart" >Departments</NavLink></li>
+         </div>
+         <div className="tooltip" data-tip="Blog">
          <li><NavLink to="/blog" >Blog</NavLink></li>
+         </div>
+         <div className="tooltip" data-tip="Gallery">
          <li><NavLink to="/gallery" >Gallery</NavLink></li>
+         </div>
         
-    
-    
+         
     
     </>
 
 
 
     return (
-        <div>
+        <div className=" mt-4">
 
 <div className="navbar shadow-lg bg-base-100">
   <div className="navbar-start">
@@ -72,7 +85,10 @@ useEffect(() => {
     </div>
 
     <div className=" flex items-center gap-1">
+    <Link  to="/" >
     <img className=" h-[40px]" src="https://i.ibb.co/nPHNzLj/diabetes.png" alt="" />
+
+    </Link>  
     
     <MovingText
   type="flipFromLeftToCenter"

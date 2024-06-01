@@ -3,8 +3,12 @@ import { Link } from "react-router-dom";
 import 'animate.css';
 
 
-
 const Banner = () => {
+
+ 
+
+
+
     return (
         <div className=" animate__animated animate__flipInY animate__repeat-2   mb-10  mt-16 ml-10 mr-10">
 
@@ -17,8 +21,11 @@ const Banner = () => {
                  <p className=" mt-10 text-xl">The art of medicine consists in amusing<br></br> the patient while nature cures the disease.</p>
 
                   <Link to="/all" >
-                 <button className=" mt-10 btn bg-blue-500 text-white">All Service</button>
+                 <button  className=" mt-10 btn bg-blue-500 text-white">All Service</button>
+               
                  </Link>
+                 
+                 
 
                </div>
 

@@ -8,7 +8,7 @@ const SignUp = () => {
 
             <div className='   flex-col md:flex-row lg:flex-row flex justify-center items-center gap-28'>
            <div className=' flex-col md:flex-row lg:flex-row '>
-            <img className=' h-[400px] ' src="https://i.ibb.co/37TwGZ8/herbal.png" alt="" />
+            <img className='  animate__animated animate__rotateIn animate__repeat-2 h-[400px] ' src="https://i.ibb.co/37TwGZ8/herbal.png" alt="" />
            </div>
            <div>
 
