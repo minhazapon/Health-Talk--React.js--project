@@ -1,10 +1,11 @@
 import { Link, NavLink } from "react-router-dom";
 
 // ---------------theme
-import { useEffect, useState } from 'react'
+import { useContext, useEffect, useState } from 'react'
 // -----------------------------------------
 
 import MovingText from 'react-moving-text'
+import { fireContext } from "./firebase/AuthContext";
 
 
 
@@ -37,6 +38,8 @@ useEffect(() => {
 }, [theme])
 // --------------------------------------
 
+
+
     const links = <>
          
          <div className="tooltip" data-tip="Home">
@@ -64,6 +67,20 @@ useEffect(() => {
          
     
     </>
+
+       const {user, logOut} =  useContext(fireContext)
+               
+       const handleOut = () => {
+         logOut()
+         .then(() => console.log('logOut successfully'))
+         .catch( error => 
+           console.error(error)
+         )
+       
+        }
+
+
+ 
 
 
 
@@ -125,9 +142,25 @@ useEffect(() => {
     
     </label>
     {/* ------------------------------------                      */}
-    <Link  to="/login" >
-    <a className="btn  bg-blue-500 text-white ">Login</a>
-    </Link>
+
+
+    { user ? <>
+    
+      <button onClick={handleOut} className="btn  bg-blue-500 text-white ">SignOut</button>
+
+      
+    </>:
+
+      <Link  to="/login" className="btn  bg-blue-500 text-white " ><a >SignIn</a></Link>  
+
+    }
+
+
+
+
+
+
+    
   </div>
 </div>
             

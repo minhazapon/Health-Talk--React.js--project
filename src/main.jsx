@@ -28,6 +28,8 @@ import EX2 from './expert doctor/EX2';
 import EX3 from './expert doctor/EX3';
 import Details from './Home files/Details';
 import BookForm from './BookForm.jsx/BookForm';
+import AuthContext from './firebase/AuthContext';
+import PrivateRoute from './firebase/PrivateRoute';
 
 
 const router = createBrowserRouter([
@@ -65,7 +67,7 @@ const router = createBrowserRouter([
       },
       {
         path: "/doc",
-        element: <OurDoctor></OurDoctor>,
+        element:   <PrivateRoute> <OurDoctor></OurDoctor> </PrivateRoute>   ,
       },
       {
         path: "/doc1",
@@ -126,7 +128,14 @@ const router = createBrowserRouter([
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
+    
+     <AuthContext>
+     
      <RouterProvider router={router} />
+
+     </AuthContext>
+
+     
   </React.StrictMode>,
 )
 

@@ -1,6 +1,32 @@
+import { useContext } from "react";
+import { fireContext } from "../firebase/AuthContext";
 
 
 const SignUp = () => {
+
+
+	const {createUser} = useContext(fireContext)
+
+    const handleUp = e =>{
+    e.preventDefault();
+	const email = e.target.email.value
+	const password = e.target.password.value
+	console.log(email, password)
+
+	createUser(email, password)
+	.then(result =>{
+		console.log(result.user)
+	})
+	.catch( error =>{
+		console.error(error)
+	}   )
+
+
+   }
+
+
+
+
     return (
         <div className=" mb-10 mt-10 ml-10 mr-10">
 
@@ -19,25 +45,14 @@ const SignUp = () => {
 		<h1 className="my-3 text-4xl font-bold">Sign Up</h1>
 		<p className="text-sm text-gray-400">Sign Up to access your account</p>
 	</div>
-	<form noValidate="" action="" className="space-y-12">
+
+
+	<form onSubmit={handleUp}  className="space-y-12">
 		<div className="space-y-4">
-			<div>
-				<label htmlFor="email" className="block mb-2 text-sm">Full Name</label>
-				<input placeholder="Full Name" className="w-full px-3 py-2 border rounded-md border-gray-700 bg-white text-black" name="name" type="text" />
-			</div>
-
-
 			<div>
 				<label htmlFor="email" className="block mb-2 text-sm">Email address</label>
 				<input type="email" name="email" id="email" placeholder="Email" className="w-full px-3 py-2 border rounded-md border-gray-700 bg-white text-black" />
 			</div>
-
-
-
-
-
-
-
 			<div>
 				<div className="flex justify-between mb-2">
 					<label htmlFor="password" className="text-sm">Password</label>
@@ -48,11 +63,16 @@ const SignUp = () => {
 		</div>
 		<div className="space-y-2">
 			<div>
-				<button type="button" className="w-full px-8 py-3 font-semibold rounded-md bg-white btn text-black">Sign Up</button>
+
+				<input className="w-full px-8 py-3 font-semibold rounded-md bg-white btn text-black" type="submit" value="Sign Up" />
+				
 			</div>
 			
 		</div>
 	</form>
+
+
+
 </div>
 
            </div>
